@@ -8,7 +8,13 @@ function LabJackTrigger_v2()
 %% Version History
 % Created by ASB at some point after January 2016
 % 8-26-19 Updated to account for changes in .NET support in Matlab 2018a; loaded onto Tracking Setup #2.
-
+% 6-8-21 Loaded onto new thermotaxis computer. If this code has errors,
+%	and you're trying to get it on a new computer, make sure the MATLAB SDK
+%	add-on is loaded, that the computer has .NET libraries (you may need to
+%	download Visual Studio) and that the LabJack drivers have been loaded
+%	and you've run the LJControlPanel software. Even after all of that, you
+%	may have to bang around trying a bunch of things before it works. Start
+%	with trying to run the command ljud_LoadDriver and ljud_Constants.
 
 
 %% Code
@@ -57,9 +63,6 @@ ImgRate=ImgRate/60; %number of images per second
 ljasm = NET.addAssembly('LJUDDotNet'); %Make the UD .NET assembly visible in MATLAB
 ljudObj = LabJack.LabJackUD.LJUD;
 
-%try
-ljasm = NET.addAssembly('LJUDDotNet'); %Make the UD .NET assembly visible in MATLAB
-ljudObj = LabJack.LabJackUD.LJUD;
 %Read and display the UD version.
 disp(['UD Driver Version = ' num2str(ljudObj.GetDriverVersion())])
 
