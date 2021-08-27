@@ -81,7 +81,7 @@ ljudObj.GoOne (ljhandle);
 
 %% Pause code here so users can set up camera software to recieve images
 f = figure('Position', [200 500 810 240], 'Color',[83/255 104/255 149/255]);
-h = uicontrol('Position',[10 10 790 220],'String',strcat('<html>Initialize Mightex Cam Demo now<br/>',num2str(sum(ImgNum)), ' frames in queue<br/>Click to begin imaging!'),...
+h = uicontrol('Position',[10 10 790 220],'String',strcat('<html>Initialize Mightex Cam Demo now<br/>',num2str(sum(ImgNum)), ' frames in queue<br/>Click to start listening for ValveBank triggers!'),...
     'Callback','uiresume(gcbf)','BackgroundColor',[254/255 187/255 54/255],'FontSize', 30,'FontWeight','bold');
 uiwait(gcf);
 close(f);
