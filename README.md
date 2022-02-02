@@ -14,6 +14,7 @@ Multiple versions of this code are provided.
 If this code has errors, and you're trying to get it on a new computer, make sure the MATLAB SDK add-on is loaded, that the computer has a compiler and .NET libraries (if the computer comes loaded with Microsoft Visual Studio you may already have them) and that the LabJack drivers have been loaded and you've run the LJControlPanel software. Even after all of that, you may have to bang around trying a bunch of things before it works. Start with trying to run the command ljud_LoadDriver and ljud_Constants.  
 
 ### Useful Links  
-- [Download Microsoft .NET Framework](https://www.microsoft.com/en-us/download/confirmation.aspx?id=25150)
 - [Download LabJack Software Installers](https://labjack.com/support/software/installers/ud)
-- [Download MinGW C/C++ Compiler](https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler)
+- [Download Microsoft Visual Studio for latest .NET framework] (https://visualstudio.microsoft.com/)
+- [Alternative to Visual Studio: Download Microsoft .NET Framework](https://www.microsoft.com/en-us/download/developer-tools.aspx)
+- [Alternative to Visual Studio: Download MinGW C/C++ Compiler](https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler)
