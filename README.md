@@ -9,3 +9,6 @@ Multiple versions of this code are provided.
 - V2 runs on MATLAB R2018a and later. The difference has to do with changes in .NET support in MATLAB R2018a.  
 - V3 automatically detects the MATLAB version number, and deploys the correct LabJack commands. Users should use this version for maximum flexibility.  
 - ValveBank_LabJackTrigger interfaces with a ValveBank device, and uses TTL pulses from the ValveBank to initiate recordings.
+
+## Installation Notes
+If this code has errors, and you're trying to get it on a new computer, make sure the MATLAB SDK add-on is loaded, that the computer has .NET libraries (you may need to download Visual Studio) and that the LabJack drivers have been loaded and you've run the LJControlPanel software. Even after all of that, you may have to bang around trying a bunch of things before it works. Start with trying to run the command ljud_LoadDriver and ljud_Constants.
