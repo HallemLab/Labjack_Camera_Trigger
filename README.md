@@ -15,7 +15,7 @@ If this code has errors, and you're trying to get it on a new computer, make sur
 
 ### Useful Links  
 - [Download LabJack Software Installers](https://labjack.com/support/software/installers/ud)
-- [Download Mightex Camera Demo Software](https://www.mightexsystems.com/wp-content/uploads/2019/04/SM-series_camera_software_release_v2.0_181212.zip)
+- [Download Mightex Camera Demo Software](https://www.mightexsystems.com/camera-download/)
 - [Download Microsoft Visual Studio for latest .NET framework] (https://visualstudio.microsoft.com/)
 - [Alternative to Visual Studio: Download Microsoft .NET Framework](https://www.microsoft.com/en-us/download/developer-tools.aspx)
 - [Alternative to Visual Studio: Download MinGW C/C++ Compiler](https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler)
